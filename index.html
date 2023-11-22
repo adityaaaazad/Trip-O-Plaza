@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip O' Plaza</title>
+    
+    <link rel="stylesheet" href="/Assignments/Trip O' Plaza/TripOPlaza.css">
+    
+</head>
+<body>
+
+    <form>
+    <div class="fieldset_container">
+
+        <fieldset>
+            <h1>Trip O' Plaza</h1>
+
+            <label for="fname" style="font-weight: bold;">Name<span>*</span></label>
+            <br>
+            <input type="text" class="name" value="" placeholder="First Name">
+            <input type="text" class="name" value placeholder="Last Name">
+<br>
+<br>
+<br>
+            <label for="email" style="font-weight: bold;">Email<span>*</span></label>
+            <br>
+            <input type="email" name="email" class="contact" placeholder="example@xyz.com">
+<br>
+<br>
+<br>
+            <label for="num" style="font-weight: bold;" >Phone Number<span>*</span></label>
+            <br>
+            <input type="tel" id="num" name="num" placeholder="(000) 000-0000" class="contact">
+<br>
+<br>
+<br>
+            <label for="dnt" style="font-weight: bold;">Departure Date/Time<span>*</span></label>
+            <br>
+            <input type="date" id="dnt" name="dnt" class="dnt">
+            <input type="time" id="dnt" name="dnt" class="dnt">
+<br>
+<br>
+<br>
+            <label for="rdnt" style="font-weight: bold;">Return Date/Time<span>*</span></label>
+            <br>
+            <input type="date" id="rdnt" name="rdnt" class="dnt">
+            <input type="time" id="rdnt" name="rdnt" class="dnt">
+<br>
+<br>
+<br>
+            <label for="padrs" style="font-weight: bold;">Pickup Address<span>*</span></label>
+            <br>
+            <textarea class="txtarea"></textarea>
+<br>
+<br>
+<br>
+            <label for="dadrs" style="font-weight: bold;">Destination Address<span>*</span></label>
+            <br>
+            <textarea class="txtarea"></textarea>
+<br>   
+<br>
+<br>
+            <label for="journey" style="font-weight: bold;" class="input_len">Journey Type<span>*</span></label>
+            <br>
+            <select id="journey" name="journey type">
+                <option>One-Way</option>
+                <option>Return</option>
+            </select>
+
+<br>    
+<br>
+<br>
+            <label for="passenger" style="font-weight: bold;">Passenegers<span>*</span></label>
+            <div>
+                <button type="button" class="plus_minus">-</button>
+                <input type="number" id="passenger_num" value="1" min="1" max="10">
+                <button type="button" class="plus_minus">+</button>
+            </div>
+<br>
+<br>
+<br>
+            <button type="submit" id="submit_button" style="background-color: #16FF00; color: #000;">Submit</button>
+
+
+
+        </fieldset>
+    </div>
+
+    </form>
+    
+</body>
+</html>
