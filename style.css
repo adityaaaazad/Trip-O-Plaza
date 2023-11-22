@@ -1,0 +1,55 @@
+form{
+    text-align: center;
+}
+
+fieldset{
+    width: 65%;
+    margin: auto;
+    box-shadow: 0 0 5px black;
+}
+
+
+span{
+    color: red;
+}
+
+.name{
+    width: 19.7em;
+}
+
+.contact{
+    width: 33.7rem;
+} 
+
+.dnt{
+    width:20em;
+}
+
+.txtarea{
+    height: 50px;
+    width: 33.8rem;
+}
+
+#journey{
+    width: 34.2rem;
+}
+
+#passenger_num{
+    text-align: center;
+    width: 28.2rem;
+}
+
+.plus_minus{
+    width: 2.5rem;
+}
+
+.input_len{
+    width: 55%;
+}
+
+#submit_button{
+    height: 40px;
+    width: 10rem;
+    align-items: center;
+    border:inset ;
+}
